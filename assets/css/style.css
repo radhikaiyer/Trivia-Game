@@ -6,18 +6,7 @@ html, body{
     background-image: url(../images/background.png);
     text-align: center; 
   }
-  
-  #wrapper{
-    margin:2.5% auto;
-    background-color:orange;
-    width:960px;
-    height: 95%;
-    box-sizing: border-box;
-  }
-  
-  #subwrapper{
-    position: relative;
-  }
+
   button{
     display:block;
     width:50%;
@@ -26,24 +15,32 @@ html, body{
     border:none;
     cursor: pointer;
     background:transparent;
-    font-size: 42px;;
+    font-size: 35px;;
   }
   
-  img{
-    height:200px;
+  #wrapper{
+    background-color:orange;
+    width:950px;
+    margin: 2.5% auto;
+    height: 90%;
+    box-sizing: border-box;
+  }
+  
+  #subwrapper{
+    position: relative;
   }
   
   h1{
-    font-family: 'Aclonica', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 6.5em;
-    font-weight: bold;
     color: black;
-    padding-top: 2.5%;
+    padding-top: 10.5%;
+    padding-bottom: 2.5%;
   }
-  
+
   h2{
-    font-size: 35px;
-    margin-bottom: 25px;
+    font-size: 30px;
+    margin-bottom: 20px;
   }
   
   h3{
@@ -53,12 +50,12 @@ html, body{
   
   #start{
     margin-top: 10%;
-    border:2px solid blue;
-    background: pink;
+    border:2px solid black;
+    background: lightpink;
   }
   
   button:hover {
-    border:2px solid blue;
-    background: pink;
+    border:2px solid black;
+    background: lightpink;
   }
  
